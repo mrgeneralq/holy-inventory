@@ -1,0 +1,5 @@
+name: HolyInventory
+version: 1.1
+main: me.qintinator.holyinventory.Main
+commands:
+  hi:
