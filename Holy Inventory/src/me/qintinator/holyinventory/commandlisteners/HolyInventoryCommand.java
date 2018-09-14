@@ -8,6 +8,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
 import me.qintinator.holyinventory.commandlisteners.hisubcommands.RestoreCommand;
+import me.qintinator.holyinventory.commandlisteners.hisubcommands.TpCommand;
 import me.qintinator.holyinventory.interfaces.IHiPlayerService;
 import me.qintinator.holyinventory.interfaces.ISubCommand;
 import me.qintinator.holyinventory.statics.Message;
@@ -24,6 +25,7 @@ public class HolyInventoryCommand implements CommandExecutor {
 	public HolyInventoryCommand(IHiPlayerService hiPlayerService) {
 		this.hiPlayerService = hiPlayerService;
 		subCommands.put("restore", new RestoreCommand(this.hiPlayerService));
+		subCommands.put("tp", new TpCommand(this.hiPlayerService));
 		
 	}
 	
