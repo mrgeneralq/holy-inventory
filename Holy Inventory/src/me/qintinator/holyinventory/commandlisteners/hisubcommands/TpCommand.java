@@ -44,7 +44,7 @@ public class TpCommand implements ISubCommand{
 		
 		HiPlayer hiPlayer = hiPlayerService.getHiPlayer(target.getUniqueId());
 		
-		if(hiPlayer == null || hiPlayer.getDrops() == null) {
+		if(hiPlayer == null) {
 			sender.sendMessage(Message.prefix + ChatColor.RED + "This player did not die yet!");
 			return;
 		}
