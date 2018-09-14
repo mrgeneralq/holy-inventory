@@ -25,12 +25,12 @@ public class TpCommand implements ISubCommand{
 	public void execute(CommandSender sender, Command cmd, String commandLabel, String[] args) {
 		
 		
-		if(!sender.hasPermission("holyinventory.restore")) {
+		if(!sender.hasPermission("holyinventory.teleport")) {
 			sender.sendMessage(Message.prefix + ChatColor.RED + "You don't have permission to that command!");
 		}
 		
 		if(args.length != 2) {
-			sender.sendMessage(Message.prefix + ChatColor.RED + "Use /hi restore <player>");
+			sender.sendMessage(Message.prefix + ChatColor.RED + "Use /hi tp <player>");
 			return;
 		}
 		
