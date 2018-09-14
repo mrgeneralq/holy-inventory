@@ -26,6 +26,7 @@ public class HolyInventoryCommand implements CommandExecutor {
 		this.hiPlayerService = hiPlayerService;
 		subCommands.put("restore", new RestoreCommand(this.hiPlayerService));
 		subCommands.put("tp", new TpCommand(this.hiPlayerService));
+		subCommands.put("teleport", new TpCommand(this.hiPlayerService));
 		
 	}
 	
