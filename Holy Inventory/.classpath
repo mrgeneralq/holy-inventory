@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/quint/Documents/Plugin development/server jars/spigot-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Panda/Desktop/mc/2016 new plugins/jars/spigot-1.13.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
